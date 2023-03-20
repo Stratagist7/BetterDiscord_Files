@@ -1,0 +1,19 @@
+{
+	"all": {
+		"general": {
+			"addNickname": true,
+			"replaceBots": true,
+			"replaceOwn": false,
+			"swapPositions": false
+		},
+		"places": {
+			"chat": true,
+			"reactions": true,
+			"mentions": true,
+			"voiceChat": true,
+			"memberList": true,
+			"typing": true,
+			"autocompletes": true
+		}
+	}
+}
