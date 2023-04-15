@@ -8,6 +8,7 @@
  * @donate https://paypal.me/IanRGibson
  * @website https://gibbu.me
  * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
 */
 
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
@@ -18,10 +19,14 @@
   --background-image-blur: 0px;
   --background-image-size: cover;
   --background-image-position: center;
-  --popout-modal-image: var(--background-image);
-  --popout-modal-blur: 5px;
-  --popout-modal-size: cover;
-  --popout-modal-position: center;
+  --popout-image: url('https://i.imgur.com/g7uVosC.jpg');
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: url('https://i.imgur.com/g7uVosC.jpg');
+  --overlay-image-blur: 5px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
   --home-button-image: url('https://gibbu.github.io/BetterDiscord-Themes/FrostedGlass/assets/discord.svg');
   --home-button-size: cover;
   --home-button-position: center;
@@ -29,11 +34,11 @@
   --left-brightness: 0.7;
   --middle-brightness: 0.6;
   --right-brightness: 0;
-  --popout-modal-brightness: 0.75;
+  --overlay-brightness: 0.75;
   --gradient-primary: 25,109,42;
   --gradient-secondary: 25,109,42;
   --link-colour: #196D2A;
-  --scrollbar-colour: rgb(255,255,255,0.05);
+  --scrollbar-colour: rgb(255,255,255,0.15);
   --gradient-direction: 320deg;
   --tint-colour: 255,51,159;
   --tint-brightness: 0;
